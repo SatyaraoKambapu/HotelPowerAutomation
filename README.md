@@ -52,3 +52,68 @@ This program takes input values for Floors, Main corridors, Sub corridors and ta
 different external inputs for motion in sub corridors. For each input, the program prints out the
 state of all the lights and ACs in the hotel. For simplicity, assume that the controller is operating
 at the Night Time
+
+
+Sample input and output below -
+
+● Number of floors: 2
+
+● Main corridors per floor: 1
+
+● Sub corridors per floor: 2
+
+Subsequent Inputs from Sensors Output from controller for corresponding sensor input Default state (when the program is first run)
+Floor 1
+
+Main corridor 1 Light 1 : ON AC : ON
+
+Sub corridor 1 Light 1 : OFF AC : ON
+
+Sub corridor 2 Light 2 : OFF AC : ON
+
+Floor 2
+
+Main corridor 1 Light 1 : ON AC : ON
+
+Sub corridor 1 Light 1 : OFF AC : ON
+
+Sub corridor 2 Light 2 : OFF AC : ON
+
+Movement in Floor 1, Subcorridor 2
+
+Floor 1
+
+Main corridor 1 Light 1 : ON AC : ON
+
+Sub corridor 1 Light 1 : OFF AC : OFF
+
+Sub corridor 2 Light 2 : ON​ AC : ON
+
+Floor 2
+
+Main corridor 1 Light 1 : ON AC : ON
+
+Sub corridor 1 Light 1 : OFF AC : ON
+
+Sub corridor 2 Light 2 : OFF AC : ON
+
+No movement in Floor 1,
+
+Sub corridor 2 for a minute
+
+Floor 1
+
+Main corridor 1 Light 1 : ON AC : ON
+
+Sub corridor 1 Light 1 : OFF AC : ON
+
+Sub corridor 2 Light 2 : OFF​ AC : ON
+
+Floor 2
+
+Main corridor 1 Light 1 : ON AC : ON
+
+Sub corridor 1 Light 1 : OFF AC : ON
+
+Sub corridor 2 Light 2 : OFF AC : ON
+
