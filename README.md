@@ -17,6 +17,7 @@ you to program a Controller which takes inputs from these sensors and controls v
 equipments.
 The way the hotel equipments are organised and the requirements for the Controller are listed
 below:
+
 ● A Hotel can have multiple floors
 
 ● Each floor can have multiple main corridors and sub corridors
